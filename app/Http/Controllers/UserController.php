@@ -27,6 +27,7 @@ class UserController extends Controller
         if (!is_null($id)) $rules['name'] .= ',' . $id;
 
         $messages = [
+
             'name' => 'Ingrea un nombre',
             'document' => 'El documento es requerido',
             'apellido' => 'Ingresa tu apellido',
