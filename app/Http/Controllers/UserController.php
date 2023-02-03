@@ -46,7 +46,8 @@ class UserController extends Controller
         endif;
 
         return [
-            'code' => 200
+            'code' => 200,
+            'msg' => 'se creo'
         ];
     }
 
